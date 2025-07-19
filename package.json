@@ -1,28 +1,17 @@
 {
-  "name": "neo-design-patterns-hw-04",
+  "name": "directory-analyzer",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Directory analysis utility using Facade and Adapter patterns",
+  "main": "main.js",
   "scripts": {
-    "builder": "npx ts-node src/builder/main.ts",
-    "singleton": "npx ts-node src/singleton/main.ts",
-    "prototype": "npx ts-node src/prototype/main.ts"
+    "build": "tsc",
+    "start": "ts-node main.ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yana-shapka/neo-design-patterns-hw-04.git"
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/yana-shapka/neo-design-patterns-hw-04/issues"
-  },
-  "homepage": "https://github.com/yana-shapka/neo-design-patterns-hw-04#readme",
   "devDependencies": {
-    "@types/node": "^24.0.14",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "@types/node": "^20.0.0"
   }
-}
+} 
